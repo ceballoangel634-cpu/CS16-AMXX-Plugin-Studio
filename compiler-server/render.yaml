@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: cs16-amxxpc-compiler
+    runtime: docker
+    rootDir: compiler-server
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: AMXX_BASE_DIR
+        value: /opt/amxx
+      - key: MAX_SOURCE_BYTES
+        value: "524288"
+      - key: COMPILE_TIMEOUT_MS
+        value: "15000"

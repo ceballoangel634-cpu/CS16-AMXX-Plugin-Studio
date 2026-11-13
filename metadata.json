@@ -1,0 +1,6 @@
+{
+  "name": "CS 1.6 Plugin Studio",
+  "description": "IDE y estudio profesional de plugins AMX Mod X y Metamod para Counter-Strike 1.6 con editor Pawn, compilador, gestor de proyectos y asistente Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
